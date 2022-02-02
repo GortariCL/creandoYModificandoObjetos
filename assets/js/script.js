@@ -155,7 +155,8 @@ Consultorio.prototype.buscarPaciente = function(nombrePaciente){
     });
 
     //console.log(Object.keys(pacienteEncontrado).length);
-
+    
+    //Condición paciente encontrado
     if(Object.keys(pacienteEncontrado).length > 0){
         console.log('Paciente Encontrado: ')
         console.log('Nombre: ' +pacienteEncontrado.nombre);
@@ -167,4 +168,5 @@ Consultorio.prototype.buscarPaciente = function(nombrePaciente){
     }
 };
 
+//Busqueda de paciente específico
 consultorio1.buscarPaciente("Pedro Mardones");
